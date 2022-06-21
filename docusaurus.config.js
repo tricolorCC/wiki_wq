@@ -54,54 +54,46 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/1111', label: 'test', position: 'left'},
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '友情链接',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '码前小卒',
+                href: 'https://www.pawn-ma.com/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '我的',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'github',
+                href: 'https://github.com/tricolorCC',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'gitee',
+                href: 'https://gitee.com/wangqi1997111',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'bilibili',
+                href: 'https://account.bilibili.com/account/home?spm_id_from=333.1007.0.0',
               },
             ],
           },
           {
-            title: 'More',
+            title: '其它',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '百度',
+                href: 'https://www.baidu.com/',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+            ]
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
